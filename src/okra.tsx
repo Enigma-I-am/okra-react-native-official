@@ -85,6 +85,7 @@ export class OkraWidget extends React.Component<OkraWidgetProps> {
         }
         javaScriptEnabled={true}
         onMessage={handleMessage}
+        limitsNavigationsToAppBoundDomains={true}
       />
     );
   }
